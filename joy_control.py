@@ -82,8 +82,6 @@ class joy_and_uart():
 if __name__ == "__main__":
     # 参数配置
     # 初始化舵机管理器
-    a = joy_and_uart(uart, 0)
+    surgRobo = Robot()
+    a = joy_and_uart(surgRobo, 0)
     a.main_loop()
-
-if __name__ == "__main__":
-    pass
